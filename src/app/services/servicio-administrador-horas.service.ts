@@ -8,7 +8,7 @@ import { Peticion } from '../modelos/Peticion';
 })
 export class ServicioAdministradorHorasService {
 
-  private url: string = "http://localhost:9403/";
+  private url: string = "http://34.66.246.14:9403/";
   constructor(public http: HttpClient) {
 
   }
